@@ -681,6 +681,10 @@ message ModelInferRequest
   //@@     must not be specified for any input tensor.
   //@@
   repeated bytes raw_input_contents = 7;
+
+  string app_name = 8;
+  bytes image = 9;
+  string extra_info = 99;
 }
 
 //@@
